@@ -9,11 +9,11 @@ import Home from "./components/home/Home";
 const App = () => {
   return (
     <div>
-      {/* <Products />
-      <Services />
-      <About />
-      <News />
-      <Partners /> */}
+      /* <Products />
+      {/* <Services /> */}
+      {/* <About /> */}
+      {/* <News /> */}
+      {/* <Partners />  */}
     </div>
   );
 };
