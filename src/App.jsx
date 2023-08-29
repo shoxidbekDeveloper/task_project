@@ -5,14 +5,16 @@ import React from "react";
 // import About from "./components/about/About";
 // import News from "./components/news/News";
 // import Partners from "./components/partners/Partners";
+import Home from "./components/home/Home";
 const App = () => {
   return (
-    <div>
+    <div className="container">
       {/* <Products />
       <Services />
       <About />
       <News />
       <Partners /> */}
+      <Home/>
      
     </div>
   );
