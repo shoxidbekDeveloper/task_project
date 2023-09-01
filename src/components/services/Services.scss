@@ -1,0 +1,119 @@
+.container_services {
+  background-image: linear-gradient(#f2f2f321 0% 40%, #f2f2f31f 50% 100%),
+    url("../../assets//images/services_bg_img.png");
+  background-position: center;
+  background-size: cover;
+  padding: 4vh 0;
+}
+.services_title {
+  color: #0d4c93;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  margin: 4vh 0;
+}
+
+.services_card {
+  max-width: 394px;
+  background-color: #fff;
+  border-radius: 50px;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.05);
+  margin-bottom: 8vh;
+  .services_card_header {
+    img {
+      width: 100%;
+    }
+  }
+  .services_card_body {
+    text-align: center;
+    padding: 4%;
+    h2 {
+      color: #0d4c93;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 1.3px;
+      margin-bottom: 2vh;
+    }
+    p {
+      color: #000;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 24px; /* 150% */
+    }
+  }
+  .services_card_footer {
+    text-align: center;
+    .services_btn {
+      border-radius: 35px;
+      opacity: 0.9;
+      background: linear-gradient(90deg, #0d4c93 0%, #00c9c9 100%);
+      width: 270px;
+      height: 50px;
+      flex-shrink: 0;
+      border: none;
+      color: #fff;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      transform: translateY(20px);
+      transition: 0.3s ease-in-out;
+      &:hover {
+        transform: translateY(20px) scale(0.9);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .services_title {
+    margin: 2vh 0;
+    font-size: 35px;
+  }
+  .services_card {
+    .services_card_body {
+      h2 {
+        font-size: 20px;
+      }
+    }
+    .services_card_footer {
+      .services_btn {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services_title {
+    margin: 2vh 0;
+    font-size: 30px;
+  }
+  .services_card {
+    .services_card_body {
+      h2 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+    .services_card_footer {
+      .services_btn {
+        font-size: 18px;
+      }
+    }
+  }
+}

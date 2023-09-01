@@ -1,4 +1,5 @@
 import IMAGES from "../assets/images";
+
 export const productsData = [
   {
     id: 1,

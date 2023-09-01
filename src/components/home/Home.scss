@@ -63,12 +63,13 @@
         }
       }
     }
+    .slick-next,
+    .slick-prev {
+      display: none !important;
+    }
   }
 }
-.slick-next,
-.slick-prev {
-  display: none !important;
-}
+
 .slick-dots {
   transform: translateY(3vh);
   li {
