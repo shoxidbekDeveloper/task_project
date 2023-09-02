@@ -3,10 +3,12 @@
   border-radius: 35px;
   opacity: 0.9;
   margin-top: 1vh;
+
   .navbar {
     display: flex;
     height: 7vh;
     width: 100%;
+
     .brand {
       display: none;
     }
@@ -16,6 +18,7 @@
       align-items: center;
       justify-content: space-between;
       list-style: none;
+      height: 100%;
       li {
         background-color: transparent;
         height: 100%;
@@ -38,7 +41,7 @@
         &::before {
           content: " ";
           position: absolute;
-          top: 8px;
+          top: 4px;
           right: 8px;
           background-color: #00c9c9;
           width: 15px;

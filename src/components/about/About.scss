@@ -133,3 +133,24 @@
     }
   }
 }
+
+@media screen and (max-width: 500px) {
+  .about_left {
+    margin-bottom: 3vh;
+    .circle_lg {
+      width: 324px;
+      height: 324px;
+      .circle_md {
+        width: 208px;
+        height: 208px;
+        .circle_sm {
+          width: 102px;
+          height: 102px;
+          img {
+            width: 100px;
+          }
+        }
+      }
+    }
+  }
+}
