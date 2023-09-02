@@ -152,6 +152,24 @@ const Footer = () => {
             </div>
           </Grid>
         </Grid>
+
+        <Grid container className="footer_bottom">
+          <Grid item lg={6} md={6} sm={12} xs={12}>
+            <div className="footer_patent">
+              © 2023 ООО «Medical Online Services»
+            </div>
+          </Grid>
+          <Grid item lg={6} md={6} sm={12} xs={12}>
+            <div className="footer_bottom_right">
+              <p className="muallif">
+                Дизайн сделан:{"\n"}
+                <a href="https://damingues92@gmail.com">
+                  damingues92@gmail.com
+                </a>
+              </p>
+            </div>
+          </Grid>
+        </Grid>
       </div>
     </div>
   );

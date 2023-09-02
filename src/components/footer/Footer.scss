@@ -108,3 +108,63 @@
     }
   }
 }
+
+.footer_bottom {
+  padding: 2vh 0;
+  .footer_patent {
+    color: #353535;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: 0.72px;
+  }
+}
+
+.footer_bottom_right {
+  text-align: center;
+  .muallif {
+    color: #353535;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: 0.72px;
+    a {
+      color: #00c9c9 !important;
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0.72px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer_inner {
+    .footer_inner_left_1 {
+      flex-direction: column;
+
+      .footer_icon_con_3 {
+        text-align: start;
+        margin-bottom: 4vh;
+        span {
+          margin-right: 15px;
+        }
+      }
+    }
+
+    .logo_container {
+      flex-direction: column;
+      img {
+        margin-bottom: 2vh;
+      }
+    }
+  }
+  .footer_bottom_right {
+    text-align: left;
+  }
+}
