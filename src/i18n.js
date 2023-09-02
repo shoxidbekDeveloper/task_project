@@ -69,6 +69,33 @@ i18n
           news_right_link: "Subscribe to news",
           // partners
           partners_title: "PARTNERS",
+          // footer
+          footer_title_1: "Contacts",
+          footer_title_2: "About company",
+          footer_title_3: "Products",
+          footer_title_4: "Services",
+          footer_dec:
+            "Our goal is to build a transparent, long-term business, bring great benefits to the population, by solving global issues. Introducing innovative technologies to the Uzbek market.",
+          footer_btn_text: "Submit application",
+          footer_title_2_1: "history",
+          footer_title_2_2: "Partners",
+          footer_title_2_3: "Jobs",
+
+          footer_title_3_1: "Endovascular surgery",
+          footer_title_3_2: "Arrhythmology",
+          footer_title_3_3: "Cardiac surgery",
+          footer_title_3_4: "Laboratory diagnostics",
+          footer_title_3_5: "Surgery",
+          footer_title_3_6: "Endourology",
+          footer_title_3_7: "Neurosurgery",
+          footer_title_3_8: "Anesthesiology and resuscitation",
+          footer_title_3_9: "Diabetes",
+
+          footer_title_4_1: "Service",
+          footer_title_4_2: "Registrations",
+          footer_title_4_3: "Logistics services",
+
+          footer_link: "Design done",
         },
       },
       ru: {
@@ -127,6 +154,33 @@ i18n
           news_right_link: "Подписаться на новости",
           // partners
           partners_title: "ПАРТНЕРЫ",
+          // footer
+          footer_title_1: "Контакты ",
+          footer_title_2: "О компании",
+          footer_title_3: "Продукция",
+          footer_title_4: "Услуги ",
+          footer_dec:
+            "Наша цель – построить прозрачный, долгосрочный бизнес, приносить огромную пользу населению, путем решения глобальных вопросов. Внедряя инновационные технологии на рынок Узбекистана.",
+          footer_btn_text: "Оставить заявку",
+
+          footer_title_2_1: "История",
+          footer_title_2_2: "Партнеры",
+          footer_title_2_3: "Вакансии",
+
+          footer_title_3_1: "Эндоваскулярная хирургия",
+          footer_title_3_2: "Аритмология",
+          footer_title_3_3: "Кардиохирургия ",
+          footer_title_3_4: "Лабораторная диагностика",
+          footer_title_3_5: "Хирургия",
+          footer_title_3_6: "Эндоурология",
+          footer_title_3_7: "Нейрохирургия",
+          footer_title_3_8: "Анестезиология и реанимация",
+          footer_title_3_9: "Диабет",
+
+          footer_title_4_1: "Сервис",
+          footer_title_4_2: "Регистрации",
+          footer_title_4_3: "Услуги логистики",
+          footer_link: "Дизайн сделан",
         },
       },
     },

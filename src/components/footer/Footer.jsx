@@ -1,8 +1,10 @@
 import React from "react";
 import "./Footer.scss";
 import { Grid } from "@mui/material";
+import { useTranslation } from "react-i18next";
 import IMAGES from "../../assets/images/index";
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <div className="footer">
       <div className="container">
@@ -11,7 +13,7 @@ const Footer = () => {
             <div className="footer_inner">
               <div className="">
                 <div className="footer_inner_left_1">
-                  <h3 className="footer_card_title">Контакты</h3>
+                  <h3 className="footer_card_title">{t("footer_title_1")}</h3>
                   <div className="footer_icon_con_1">
                     <div className="footer_inner_icon_in">
                       <span className="footer_icon">
@@ -29,7 +31,8 @@ const Footer = () => {
                         </svg>
                       </span>
                       <p className="footer_text">
-                        г.Ташкент, Чиланзар <br /> 10 квартал, дом 3/1
+                        {t("header_left_1_text")} <br /> 10{" "}
+                        {t("header_left_2_text")} 3/1
                       </p>
                     </div>
                     <div className="footer_inner_icon_in">
@@ -105,50 +108,47 @@ const Footer = () => {
                         +998 71 276-62-53 <br /> +998 71 276-62-54
                       </p>
                     </div>
-                    <button className="footer_btn">Оставить заявку</button>
+                    <button className="footer_btn">
+                      {t("footer_btn_text")}
+                    </button>
                   </div>
                 </div>
               </div>
 
               <div className="logo_container">
                 <img src={IMAGES?.logo} alt="logo" />
-                <p className="footer_dec">
-                  Наша цель – построить прозрачный, долгосрочный бизнес,
-                  приносить огромную пользу населению, путем решения глобальных
-                  вопросов. Внедряя инновационные технологии на рынок
-                  Узбекистана.
-                </p>
+                <p className="footer_dec">{t("footer_dec")}</p>
               </div>
             </div>
           </Grid>
           <Grid item lg={2} md={6} sm={12} xs={12} pl={2}>
             <div className="footer_inner">
-              <h3 className="footer_card_title">О компании</h3>
-              <p className="footer_text">История</p>
-              <p className="footer_text"> Партнеры</p>
-              <p className="footer_text"> Вакансии</p>
+              <h3 className="footer_card_title">{t("footer_title_2")}</h3>
+              <p className="footer_text">{t("footer_title_2_1")}</p>
+              <p className="footer_text"> {t("footer_title_2_2")}</p>
+              <p className="footer_text"> {t("footer_title_2_3")}</p>
             </div>
           </Grid>
           <Grid item lg={2} md={6} sm={12} xs={12}>
             <div className="footer_inner">
-              <h3 className="footer_card_title">Продукция</h3>
-              <p className="footer_text">Эндоваскулярная хирургия</p>
-              <p className="footer_text"> Аритмология</p>
-              <p className="footer_text"> Кардиохирургия</p>
-              <p className="footer_text"> Лабораторная диагностика </p>
-              <p className="footer_text"> Хирургия</p>
-              <p className="footer_text"> Эндоурология</p>
-              <p className="footer_text"> Нейрохирургия</p>
-              <p className="footer_text"> Анестезиология и реанимация</p>
-              <p className="footer_text"> Диабет</p>
+              <h3 className="footer_card_title">{t("footer_title_3")}</h3>
+              <p className="footer_text">{t("footer_title_3_1")}</p>
+              <p className="footer_text"> {t("footer_title_3_2")}</p>
+              <p className="footer_text"> {t("footer_title_3_3")}</p>
+              <p className="footer_text"> {t("footer_title_3_4")} </p>
+              <p className="footer_text"> {t("footer_title_3_5")}</p>
+              <p className="footer_text"> {t("footer_title_3_6")}</p>
+              <p className="footer_text"> {t("footer_title_3_7")}</p>
+              <p className="footer_text"> {t("footer_title_3_8")}</p>
+              <p className="footer_text"> {t("footer_title_3_9")}</p>
             </div>
           </Grid>
           <Grid item lg={2} md={6} sm={12} xs={12}>
             <div className="footer_inner">
-              <h3 className="footer_card_title">Услуги</h3>
-              <p className="footer_text"> Сервис</p>
-              <p className="footer_text"> Регистрации</p>
-              <p className="footer_text"> Услуги логистики</p>
+              <h3 className="footer_card_title">{t("footer_title_4")}</h3>
+              <p className="footer_text"> {t("footer_title_4_1")}</p>
+              <p className="footer_text"> {t("footer_title_4_2")}</p>
+              <p className="footer_text"> {t("footer_title_4_3")}</p>
             </div>
           </Grid>
         </Grid>
@@ -162,7 +162,7 @@ const Footer = () => {
           <Grid item lg={6} md={6} sm={12} xs={12}>
             <div className="footer_bottom_right">
               <p className="muallif">
-                Дизайн сделан:{"\n"}
+                {t("footer_link")}:{"\n"}
                 <a href="https://damingues92@gmail.com">
                   damingues92@gmail.com
                 </a>
