@@ -67,6 +67,8 @@ i18n
             'From April 19 to April 21, a master class was held at JSC "RSNPMTSU" (Republican Specialized Scientific and Practical Medical Center of Urology) with the support of Ethicon Endo Surgery (Johnson&Johnson) and FE LLC "Medical Online Services"...',
           news_left_link: "View all news",
           news_right_link: "Subscribe to news",
+          // partners
+          partners_title: "PARTNERS",
         },
       },
       ru: {
@@ -123,6 +125,8 @@ i18n
           news_card_btn_text: "Подробнее",
           news_left_link: "Посмотреть все новости ",
           news_right_link: "Подписаться на новости",
+          // partners
+          partners_title: "ПАРТНЕРЫ",
         },
       },
     },

@@ -4,9 +4,9 @@ import Products from "./components/products/Products";
 import Services from "./components/services/Services";
 import About from "./components/about/About";
 import News from "./components/news/News";
-// import Partners from "./components/partners/Partners";
+import Partners from "./components/partners/Partners";
 import Home from "./components/home/Home";
-import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 import "./App.scss";
 const App = () => {
   return (
@@ -16,7 +16,8 @@ const App = () => {
       <Services />
       <About />
       <News />
-      {/* <Partners />  */}
+      <Partners />
+      <Footer />
     </div>
   );
 };

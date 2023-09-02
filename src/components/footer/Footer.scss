@@ -1,0 +1,110 @@
+.footer {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-top: 3vh;
+  background-image: linear-gradient(#f2f2f321 0% 40%, #f2f2f31f 50% 100%),
+    url("../../assets/images/footer_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer_card_title {
+  color: #595959;
+  font-family: Roboto;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 107.692% */
+  letter-spacing: 1.04px;
+}
+.footer_text {
+  color: #5a5a5a;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.4px;
+}
+.footer_dec {
+  color: #585858;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: 0.72px;
+}
+.footer_btn {
+  border-radius: 35px;
+  opacity: 0.9;
+  background: linear-gradient(90deg, #0d4c93 0%, #00c9c9 100%);
+  width: 229px;
+  height: 50px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  border: none;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    transform: scale(0.9);
+  }
+}
+.footer_icon {
+  padding: 13px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background-color: #fff;
+}
+.footer_inner {
+  .footer_inner_left_1 {
+    display: flex;
+    justify-content: space-between;
+    .footer_icon_con_1 {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      justify-content: center;
+      width: 350px;
+      padding-left: 10px;
+      svg {
+        font-size: 16px !important;
+      }
+    }
+    .footer_inner_icon_in {
+      margin-bottom: 4vh;
+      display: flex;
+      align-items: center;
+      span {
+        margin-right: 10px;
+      }
+    }
+    .footer_icon_con_2 {
+      text-align: left;
+      display: flex;
+      align-items: center;
+    }
+    .footer_icon_con_3 {
+      text-align: end;
+      span {
+        margin-right: 15px;
+      }
+    }
+  }
+
+  .logo_container {
+    display: flex;
+    align-items: center;
+    img {
+      margin-right: 2%;
+    }
+  }
+}
